@@ -35,7 +35,7 @@ import LastReadList from "../../last-read/list"
 import { config, t } from "../../../lib/config"
 import MultiTranslation from "../../icons/MultiTranslation"
 import { navigateToMultiTranslation } from "../../../lib/multi-translation-storage"
-import Settings from "../sidenav/settings"
+import Settings from "../../settings"
 import { showMultiTranslation } from "../../../lib/config"
 
 export default function HeaderWeb({ page, chapters, isChapterPage, hasSidenav, headerVisible = true }) {
