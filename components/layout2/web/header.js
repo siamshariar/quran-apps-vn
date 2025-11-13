@@ -354,7 +354,7 @@ useEffect(() => {
                     </MenuItem>
                   ) : (
                     <MenuItem
-                      onClick={(e) => handleItem(e, <Settings controller={handleModalClose} />,)}
+                      onClick={(e) => handleItem(e, <Settings onTitleChange={handleTitleChange} />, "Settings")}
                     >
                       <span className={styles.icon}>
                         <SettingsIcon />
